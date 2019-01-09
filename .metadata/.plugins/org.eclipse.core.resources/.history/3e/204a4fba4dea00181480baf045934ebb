@@ -1,0 +1,15 @@
+import java.io.*;
+
+public class FileExample1 {
+
+	public static void main(String[] args) {
+		File f1 = new File("D:\\Workspace\\Files\\name1.txt");
+		try {
+			f1.createNewFile();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println("File exists: "+f1.exists());
+
+	}
+}

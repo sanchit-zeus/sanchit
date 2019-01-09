@@ -1,0 +1,10 @@
+import java.io.*;
+
+public class BufferedReader {
+
+	public static void main(String[] args) throws IOException {
+		int ch;
+		BufferedReader bf=new BufferedReader(new FileReader("D:\\Workspace\\Files\\name1.txt"));
+	}
+
+}

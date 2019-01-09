@@ -1,0 +1,13 @@
+import java.io.*;
+import java.nio.Buffer;
+
+public class BufferWriter {
+
+	public static void main(String[] args) throws IOException {
+		BufferedWriter bf = new BufferedWriter(new FileWriter("D:\\Workspace\\Files\\name1.txt",true));
+		bf.write("Computer");
+		bf.close();
+
+	}
+
+}

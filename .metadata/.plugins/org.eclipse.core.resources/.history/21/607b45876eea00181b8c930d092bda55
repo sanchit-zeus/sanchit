@@ -1,0 +1,19 @@
+import java.io.*;
+
+public class FileOutputStream {
+
+	public static void main(String[] args) throws IOException {
+		
+		File f1 = new File("D:\\Workspace\\Files\\name1.txt");
+		FileOutputStream fout=new FileOutputStream()
+		String s="TATA";
+		char ch[]=s.toCharArray();
+		for (int i = 0; i < s.length(); i++) {
+			fout.write(ch[i]);
+		}
+		fout.close();
+		
+
+	}
+
+}
