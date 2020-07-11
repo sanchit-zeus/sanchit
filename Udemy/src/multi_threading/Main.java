@@ -1,18 +1,20 @@
 package multi_threading;
 
 
-public class Main extends ThreadColor {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Main extends ThreadColor 
+{
+	public static void main(String[] args) 
+	{
 		System.out.println("Hello from the main thread.");
 		
 		Thread anotherThread = new AnotherThread();
 		anotherThread.setName("== Another Thread ==");
 		anotherThread.start();
 		
-		new Thread() {
-			public void run() {
+		new Thread() 
+		{
+			public void run() 
+			{
 				System.out.println("Hello from anonymous class thread.");
 			}
 		}.start();
@@ -20,16 +22,20 @@ public class Main extends ThreadColor {
 //		Thread myRunnableThread = new Thread(new MyRunnable());
 //		myRunnableThread.start();
 		
-		Thread myRunnableThread = new Thread(new MyRunnable() {
+		Thread myRunnableThread = new Thread(new MyRunnable() 
+		{
 			@Override
-			public void run() {
+			public void run() 
+			{
 //				super.run();
 				System.out.println("Hello from anonymous class's implementation of run()");
-				try {
+				try 
+				{
 					anotherThread.join(2000);
 					System.out.println("anotherThread terminated, or timed out, so I'am running.");
 				}
-				catch(InterruptedException e){
+				catch(InterruptedException e)
+				{
 					System.out.println("I couldn't watafter all. I was interrupted");
 				}
 			}
@@ -38,7 +44,5 @@ public class Main extends ThreadColor {
 		anotherThread.interrupt();
 		
 		System.out.println("Hello again from the main thread.");
-
 	}
-
 }
