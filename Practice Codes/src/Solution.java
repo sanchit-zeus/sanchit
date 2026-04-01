@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.regex.*;
 
 class Parser
 {
@@ -51,7 +50,7 @@ class Solution
 		Scanner in = new Scanner(System.in);
 
 		while (in.hasNext()) {
-			System.out.println(parser.isBalanced(in.next()));
+			System.out.println(Parser.isBalanced(in.next()));
 		}
         
 		in.close();

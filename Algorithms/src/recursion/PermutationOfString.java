@@ -30,7 +30,7 @@ public class PermutationOfString
 
 	public static void main(String[] args) 
 	{
-		String str = "ABC";
+		String str = "ABCDEFGHIJKLMNOPQRST";
 		int n = str.length();
         PermutationOfString permutation = new PermutationOfString(); 
         permutation.permute(str,0,n-1);

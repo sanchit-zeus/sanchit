@@ -35,7 +35,7 @@ public class ParenthesisChecker {
 	
 	public static void main(String[] args) 
 	{
-		String str = "{[(])}";
+		String str = "{[)}";
 		ParenthesisChecker obj = new ParenthesisChecker();
 
 		if(obj.checker(str) == true)
