@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AisehiPractice/AisehiPractice.iml" filepath="$PROJECT_DIR$/AisehiPractice/AisehiPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/File Handling/File Handling.iml" filepath="$PROJECT_DIR$/File Handling/File Handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI/GUI.iml" filepath="$PROJECT_DIR$/GUI/GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loan System/Loan System.iml" filepath="$PROJECT_DIR$/Loan System/Loan System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multi Threading/Multi Threading.iml" filepath="$PROJECT_DIR$/Multi Threading/Multi Threading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online Shpooing/Online Shpooing.iml" filepath="$PROJECT_DIR$/Online Shpooing/Online Shpooing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice Codes/Practice Codes.iml" filepath="$PROJECT_DIR$/Practice Codes/Practice Codes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter/Starter.iml" filepath="$PROJECT_DIR$/Starter/Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Striver/Striver.iml" filepath="$PROJECT_DIR$/Striver/Striver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorial/Tutorial.iml" filepath="$PROJECT_DIR$/Tutorial/Tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Udemy/Udemy.iml" filepath="$PROJECT_DIR$/Udemy/Udemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workspace.iml" filepath="$PROJECT_DIR$/Workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new/new.iml" filepath="$PROJECT_DIR$/new/new.iml" />
+    </modules>
+  </component>
+</project>
