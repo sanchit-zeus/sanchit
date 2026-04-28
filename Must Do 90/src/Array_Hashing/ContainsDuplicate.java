@@ -1,14 +1,18 @@
 package Array_Hashing;
 
+import java.util.ArrayList;
+
 public class ContainsDuplicate {
 
     public boolean containsDuplicate(int[] nums) {
 
-        int occ[] = new int[nums.length];
-
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                
+        ArrayList<Integer> list = new ArrayList<>();
+        
+        for (int value : nums) {
+            if (list.contains(value)) {
+                return true;
+            } else {
+                list.add(value);
             }
         }
         return false;
@@ -19,6 +23,6 @@ public class ContainsDuplicate {
         int nums[] = { 1, 2, 3, 1 };
         ContainsDuplicate obj = new ContainsDuplicate();
 
-        obj.containsDuplicate(nums);
+        System.out.println(obj.containsDuplicate(nums));
     }
 }
