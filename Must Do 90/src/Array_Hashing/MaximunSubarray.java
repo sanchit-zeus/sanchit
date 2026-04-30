@@ -2,19 +2,22 @@ package Array_Hashing;
 
 public class MaximunSubarray {
 
-    public int maxSubArray(int[] nums) {
+    public int maxSubArrayBrute(int[] nums) {
         int maxSum = 0;
 
         for (int i = 0; i < nums.length; i++) {
             for (int j = i; j < nums.length; j++) {
+                int sum = 0;
                 for (int k = i; k <= j; k++) {
-                    System.out.print(nums[k]+",");
+                    sum = sum + nums[k];
                 }
-                System.out.println();
+                if(sum > maxSum) {
+                    maxSum = sum;
+                }
             }
         }
 
-        return 0;
+        return maxSum;
     }
 
     public static void main(String[] args) {
@@ -23,6 +26,6 @@ public class MaximunSubarray {
 
         MaximunSubarray obj = new MaximunSubarray();
 
-        obj.maxSubArray(arr);
+        System.out.println(obj.maxSubArray(arr));
     }
 }
