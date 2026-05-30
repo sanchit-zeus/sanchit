@@ -2,7 +2,7 @@ package Array_Hashing;
 
 public class MaximunSubarray {
 
-    public int maxSubArray(int[] nums) {
+    public int maxSubArrayBrute(int[] nums) {
         int maxSum = 0;
 
         for (int i = 0; i < nums.length; i++) {
@@ -15,6 +15,17 @@ public class MaximunSubarray {
         }
 
         return 0;
+                int sum = 0;
+                for (int k = i; k <= j; k++) {
+                    sum = sum + nums[k];
+                }
+                if(sum > maxSum) {
+                    maxSum = sum;
+                }
+            }
+        }
+
+        return maxSum;
     }
 
     public static void main(String[] args) {
@@ -22,7 +33,7 @@ public class MaximunSubarray {
         int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
 
         MaximunSubarray obj = new MaximunSubarray();
-
-        obj.maxSubArray(arr);
+        
+        System.out.println(obj.maxSubArrayBrute(arr));
     }
 }
